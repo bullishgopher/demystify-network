@@ -28,8 +28,6 @@ export default function HomePage() {
         apiKey: API_KEY,
       };
 
-      console.log(body);
-
       const res = await fetch(`${API_URL}`, {
         method: 'POST',
         headers: {
@@ -38,8 +36,7 @@ export default function HomePage() {
         body: JSON.stringify(body),
       });
 
-      const data = await res.json();
-      console.log(res, data);
+      await res.json();
       setScore(100);
     } catch (error) {
       toast.error('Something went wrong');
