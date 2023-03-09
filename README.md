@@ -6,6 +6,8 @@
 
 [Demo](https://app-demystify-network.vercel.app)
 
+![screenshot](./readme-sc.png)
+
 ## Features
 
 This repository is 🔋 battery packed with:
