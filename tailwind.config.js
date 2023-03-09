@@ -25,8 +25,9 @@ module.exports = {
           900: 'rgb(var(--tw-color-primary-900) / <alpha-value>)',
         },
         dark: '#222222',
-        button: '#1876D0',
-        disabled: '#1a65ad',
+        button: '#cbaf14',
+        hover: '#ffd700',
+        disabled: '#756300',
       },
       keyframes: {
         flicker: {
